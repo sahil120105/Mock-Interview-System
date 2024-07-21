@@ -12,7 +12,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 chat = ChatGroq(
-    api_key=os.getenv('GROQ_API_KEY'),  # Replace with your actual API key
+    api_key=os.getenv('GROQ_API_KEY'),  # Replace with your API key
     model_name="mixtral-8x7b-32768"
 )
 
